@@ -16,7 +16,7 @@ SRC = $(wildcard $(SRCDIR)/*.c)
 OBJ = $(patsubst $(SRCDIR)/%.c, $(BUILDDIR)/%.o, $(SRC))
 
 # Default rule
-all: $(BUILDDIR) $(TARGET) raylib
+all: raylib $(BUILDDIR) $(TARGET)
 
 # Create build directory if it doesn't exist
 $(BUILDDIR):

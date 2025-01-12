@@ -7,7 +7,7 @@ Just playing around with Raylib
 Clone the repository with submodules:
 
 ```
-git clone --recursive-submodules -j8 git://github.com/pjlast/cgame.git
+git clone --recurse-submodules -j8 git://github.com/pjlast/cgame.git
 ```
 
 Build the game by running
